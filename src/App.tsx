@@ -16,13 +16,13 @@ export default function App() {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/achievements" element={<Achievements />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Home />} />
+          <Route path="/portfolio/education" element={<Education />} />
+          <Route path="/portfolio/projects" element={<Projects />} />
+          <Route path="/portfolio/skills" element={<Skills />} />
+          <Route path="/portfolio/achievements" element={<Achievements />} />
+          <Route path="/portfolio/gallery" element={<Gallery />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
         </Routes>
       </main>
     </div>

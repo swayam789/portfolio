@@ -14,8 +14,8 @@ export default function Home() {
           Current 2nd Year student in Forbes college <br/> in kshetrapur, Chitwan - Nepal.
         </p>
         <div className="flex justify-center gap-4">
-          <a href="/projects" className="cyber-button">View Projects</a>
-          <a href="/contact" className="cyber-button">Get in Touch</a>
+          <a href="/portfolio/projects" className="cyber-button">View Projects</a>
+          <a href="/portfolio/contact" className="cyber-button">Get in Touch</a>
         </div>
       </div>
     </div>

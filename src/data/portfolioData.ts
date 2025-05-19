@@ -92,7 +92,7 @@ export const galleryData = [
   {
     title: "UTECH HACKATHON BETA",
     description: "2nd Place in UTECH Hackathon Beta 2024",
-    imageUrl: "/portfolio/team.jpg",
+    imageUrl: "/team.jpg",
     category: "Events",
   },
 ];

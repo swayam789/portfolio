@@ -48,9 +48,14 @@ export const skillsData = [
   {
     category: "Security(Learning)",
     items: [
-      { name: "Penetration Testing", proficiency: 10 },
+      { name: "Penetration Testing", proficiency: 30 },
       { name: "Network Security", proficiency: 45 },
       { name: "Vulnerability Assessment", proficiency: 40 },
+      { name: "Incident Response", proficiency: 20 },
+      { name: "Reconnaissance", proficiency: 60 },
+      { name: "Malware Analysis", proficiency: 25 },
+      { name: "Cryptography", proficiency: 25 },
+      { name: "Risk Management", proficiency: 35 },
     ],
   },
   {
@@ -60,7 +65,7 @@ export const skillsData = [
       { name: "Web Development", proficiency: 90 },
       { name: "Frontend Development", proficiency: 90 },
       { name: "Backend Development", proficiency: 60 },
-
+      { name: "UI/UX Design", proficiency: 40 },
       
     ],
   },
@@ -68,6 +73,7 @@ export const skillsData = [
     category: "Tools & Technologies",
     items: [
       { name: "Python", proficiency: 70 },
+      { name: "Kali Linux", proficiency: 75 },
       { name: "JavaScript/TypeScript", proficiency: 90 },
       { name: "AWS/Azure", proficiency: 65 },
       { name: "Git/GitHub", proficiency: 80 },
@@ -75,6 +81,12 @@ export const skillsData = [
       { name: "SQL/NoSQL", proficiency: 70 },
       { name: "HTML/CSS", proficiency: 90 },
       { name: "MERN", proficiency: 80 },
+      { name: "Metasploit", proficiency: 50 },
+      { name: "Burp Suite", proficiency: 60 },
+      { name: "Nmap", proficiency: 60 },
+      { name: "Wireshark", proficiency: 80 },
+      { name: "Hydra", proficiency: 50 },
+      { name: "OWASP ZAP", proficiency: 55 },
       ],
   },
 ];
@@ -86,6 +98,12 @@ export const achievementsData = [
     date: "2024",
     category: "HACKATHON",
   },
+  {
+    title: "ISC2 Certified in Cybersecurity",
+    description: "Certified in Cybersecurity by ISC2",
+    date: "2025",
+    category: "Certification",
+  }
 ];
 
 export const galleryData = [
@@ -95,4 +113,5 @@ export const galleryData = [
     imageUrl: "/team.jpg",
     category: "Events",
   },
+
 ];
